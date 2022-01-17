@@ -1,0 +1,11 @@
+apiVersion: v2
+name: .
+description: A Helm chart for a Minecraft server.
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+
+dependencies: 
+- name: minecraft
+  version: "3.6.3"
+  repository: "https://itzg.github.io/minecraft-server-charts/"
