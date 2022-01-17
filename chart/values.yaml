@@ -159,7 +159,7 @@ minecraft:
     # Check accounts against Minecraft account service.
     onlineMode: true
     # If you adjust this, you may need to adjust resources.requests above to match.
-    memory: 1024M
+    memory: 4096M
     # General JVM options to be passed to the Minecraft server invocation
     jvmOpts: ""
     # Options like -X that need to proceed general JVM options
