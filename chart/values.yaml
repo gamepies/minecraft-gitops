@@ -1,6 +1,6 @@
 minecraft:
-  image: itzg/minecraft-server:java8-multiarch
-  imageTag: latest
+  image: itzg/minecraft-server
+  imageTag: java8-multiarch
   imagePullSecret: ""
 
   ## Configure resource requests and limits
