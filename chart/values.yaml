@@ -1,5 +1,5 @@
 minecraft:
-  image: itzg/minecraft-server
+  image: itzg/minecraft-server:java8-multiarch
   imageTag: latest
   imagePullSecret: ""
 
