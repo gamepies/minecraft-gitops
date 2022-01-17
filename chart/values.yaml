@@ -176,7 +176,8 @@ minecraft:
     ## Set the externalTrafficPolicy in the Service to either Cluster or Local
     # externalTrafficPolicy: Cluster
     externalIPs:
-
+    - 35.233.41.158 
+    
     rcon:
       # If you enable this, make SURE to change your password below.
       enabled: false
