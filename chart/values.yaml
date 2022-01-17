@@ -233,7 +233,7 @@ minecraft:
   ## Values can be either variable values or `valueFrom` yaml
   ##
   extraEnv:
-    {}
+    FTB_MODPACK_ID: 79
     # some_variable: some value
     # another_variable:
     #   valueFrom:
