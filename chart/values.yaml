@@ -91,7 +91,7 @@ minecraft:
     # If type is set to PAPER, this sets the URL to download the PaperSpigot package
     paperDownloadUrl:
     # If type is set to FTB, this sets the server mod to run. You can also provide the URL to download the FTB package
-    ftbServerMod: https://www.curseforge.com/minecraft/modpacks/ftb-presents-direwolf20-1-12/download/3086774
+    ftbServerMod: https://api.modpacks.ch/public/modpack/79/2113/server/linux
     # If type is set to CURSEFORGE, this sets the server mod to run. Can also provide url to curseforge package.
     cfServerMod:
     # Set to true if running Feed The Beast and get an error like "unable to launch forgemodloader"
