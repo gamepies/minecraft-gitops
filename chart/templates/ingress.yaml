@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: minecraft-ingress
+  namespace: pathfinder
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+  - host: minecraft.pf2e.io
+    http:
+      paths:
+      - backend:
+          serviceName: minecraft-minecraft
+          servicePort: 25565
+  tls:
+  - hosts:
+    - minecraft.pf2e.io
+    secretName: {{ .Chart.Name }}-tls
+
