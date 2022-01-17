@@ -171,7 +171,7 @@ minecraft:
     nodePort: 31565
     # Set the external port of the service, usefull when using the LoadBalancer service type
     servicePort: 25565
-    loadBalancerIP: 35.210.13.68
+    loadBalancerIP: 35.206.170.143
     # loadBalancerSourceRanges: []
     ## Set the externalTrafficPolicy in the Service to either Cluster or Local
     # externalTrafficPolicy: Cluster
